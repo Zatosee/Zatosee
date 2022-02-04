@@ -1,0 +1,59 @@
+body {
+	width:800px;
+	text-align:center;
+	margin-top:20px;
+	margin-left:500px;
+	font-family:Gill Sans, sans-serif;
+	background-image:url("../images/fond.png");
+	background-attachment: fixed;
+}
+h1{
+	border:2.5px solid #38761d;
+	background-color:#eef7db;
+}
+main{
+	border:2.5px solid #38761d;
+	background-color:#eef7db;
+}
+nav{
+	border:2.5px solid #38761d;
+	background-color:#eef7db;
+}
+article{
+	
+}
+
+nav > div{
+		
+		display:inline;
+		position:relative;
+		
+}
+div > a{
+	background-color:#b6d7a8;
+	color:#38761d;
+	text-decoration:none;
+}
+footer > a{
+	background-color:#b6d7a8;
+	color:#38761d;
+}
+
+header {
+	background-color:transparent;
+}
+img{
+	border:2.5px solid #38761d;
+}
+#monke{
+	text-align:center;
+}
+footer{
+	border:2.5px solid #38761d;
+	background-color:#eef7db;
+}
+c{
+	width: 800px;
+	height: 200px;
+	display:flex;
+}

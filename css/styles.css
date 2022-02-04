@@ -1,0 +1,114 @@
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:Gill Sans, sans-serif;
+	background-image:url("../images/fond.png");
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+nav{
+	background-color:#eef7db;
+	border:2px solid #38761d;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+nav > div{
+	background-color:#b6d7a8;
+	display:inline;
+	position:relative;	
+}
+
+h1{
+	border:2px solid #38761d;
+	background-color:#eef7db;
+	text-align:center;
+}
+
+.jungle{
+	text-align:center;
+	width:200px;
+	height:200px;
+	border:2px solid #38761d;
+}
+
+main { 
+	background-color:#eef7db;
+	border:2px solid #38761d;
+	padding-bottom:8px;
+}
+
+main img {
+    max-width: 100px;
+    max-height: 100px;
+
+}
+
+nav div a:hover{
+	color:#35BA00;
+}
+
+nav div{
+	background-color:#eef7db;
+}
+
+nav div a{
+	text-decoration:none;
+	color:#1B5D00;
+}
+
+footer{
+	border: 2px solid #38761d;
+	background-color:#eef7db;
+	color:#2B8900;
+	text-align:center;
+}
+
+.item {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+.item > * {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+section div{
+	justify-content: space-around;
+}
+
+div.achat img{
+	max-width: 25px;
+    background-color: #d4ef9b;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;      
+    border:1px solid #38761d;
+    border-radius: 5%;
+}
+
+div.achat {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.text {
+	flex-grow: 2;
+}
+
+div.achat img:hover{
+	transition: all 0.4s;
+	background-color:#a2c94f;
+}

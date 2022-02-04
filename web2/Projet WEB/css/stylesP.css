@@ -1,0 +1,100 @@
+body {
+max-width:800px;
+width: 100%;
+margin-top:20px;
+margin-left:auto;
+margin-right: auto;
+font-family:Gill Sans, sans-serif;
+background-image:url("../images/fond.png");
+background-attachment: fixed;
+background-size:cover ;
+
+}
+h1{
+border:2.5px solid #38761d;
+background-color:#eef7db;
+text-align: center;
+}
+main{
+border:2.5px solid #38761d;
+background-color:#eef7db;
+text-align: center;
+display:flex;
+}
+nav{
+border:2.5px solid #38761d;
+background-color:#eef7db;
+text-align: center;
+}
+
+nav > div{
+display:inline;
+position:relative;
+
+}
+div > a{
+color:#38761d;
+text-decoration:none;
+}
+
+footer > a{
+background-color:#b6d7a8;
+color:#38761d;
+text-decoration:none;
+}
+
+
+
+header {
+background-color:transparent;
+}
+div img{
+border:2.5px solid #38761d;
+}
+#monke{
+text-align:center;
+}
+footer{
+border:2.5px solid #38761d;
+background-color:#eef7db;
+text-align: center;
+}
+
+.mnk div img {
+	text-align: left;
+}
+.mnk div div{
+	text-align: center;
+}
+
+
+.mnk div{
+	justify-content :space-around;
+	align-items: center;
+	display :flex;
+	position :relative;
+
+}
+
+#dk{
+	width:200px;
+	height:200px;
+}
+button{  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+nav div a:hover{
+	color: #35BA00;
+}
+#achat{
+	width: 150px;
+	height: 100px;
+}
+.promo{
+	color: #d44646;
+}
+#DK{
+	width:793px;
+	height:195px;
+}
